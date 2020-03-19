@@ -1,0 +1,69 @@
+body{
+    background-image: url(./../img/fon5.gif);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 300px;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 15px;
+    overflow: visible;
+    text-align: center;
+    margin-top: 155px
+}
+
+.userInfoContainer{
+
+}
+
+.userInfoContainer > *{
+    margin: 0 auto;
+
+}
+
+.Avatar{
+    width: 251px;
+    height: 251px;
+    border-radius: 50%;
+    background-color: #ff10ee;
+    overflow: visible;
+    margin-top: -135px;
+    -webkit-box-shadow: 0 0 0 3px #c30eb8 , 0 0 0 8px #fff;
+    box-shadow: 0 0 0 3px #c30eb8 , 0 0 0 8px #fff;
+}
+
+.userInfoContainer > h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    padding: inherit;
+}
+
+.userInfoContainer > h5{
+    text-align: center;
+    margin-top: 5px;
+    color: #707070;
+    padding: inherit;
+}
+
+.userInfoContainer > h3{
+    text-align: center;
+    margin-top: 5px;
+    color: #707070;
+    padding: inherit;
+}
+
+.iconContainer{
+    text-align: center;
+    display: inline-block;
+}
+
+.verticalAlign + .verticalAlign{
+    margin-left: 20px;
+}
+
+.iconContainer > img{
+    vertical-align: middle;
+}
